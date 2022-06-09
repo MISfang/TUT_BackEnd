@@ -1,30 +1,31 @@
-# my-midway-project
+# 天理通小程序后台Node后端
 
-## 快速入门
+## 介绍
 
-<!-- 在此次添加使用文档 -->
+天理通小程序是一款专注于为天津理工大学校园圈师生提供便捷服务的小程序
 
-如需进一步了解，参见 [midway 文档][midway]。
-
-### 本地开发
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
-```
-
-### 部署
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### 内置指令
-
-- 使用 `npm run lint` 来做代码风格检查。
-- 使用 `npm test` 来执行单元测试。
+本项目为该小程序后台管理系统的后端
 
 
-[midway]: https://midwayjs.org
+
+在线地址预览
+
+http://47.94.128.16/#/login
+
+
+
+前端链接
+
+https://github.com/MISfang/TUT_FontEnd
+
+#### 技术栈
+
+- [MidwayJs](https://midwayjs.org/docs/intro)
+- mysql 8.0
+- typeorm [数据库链接](https://midwayjs.org/docs/extensions/orm)
+- jwt[做登录鉴权](https://midwayjs.org/docs/extensions/jwt)
+- redishttps://midwayjs.org/docs/extensions/redis缓存控制在线用户token过期时间
+- 阿里云的oss[图片存储](https://midwayjs.org/docs/extensions/oss)
+- midway的upload插件 [图片上传](https://midwayjs.org/docs/extensions/upload)
+- [跨域问题处理](https://midwayjs.org/docs/extensions/cross_domain)
+
